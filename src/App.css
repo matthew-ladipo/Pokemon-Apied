@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(243, 232, 217);
+}
+
+.topImg {
+  width: 10%;
+  position: fixed;
+}
+.bottomImage {
+  width: 15%;
+  bottom: 10%;
+  right: 30px;
+  position: fixed;
+}
+.preDetails {
+  display: flex;
+  
+}
+.details {
+  margin-top: 40px;
+  margin: 20px 120px;
+ 
+  width: 450px;
+ 
+ 
+}
+
+.subdetails{
+  background-color: aliceblue;
+  padding: 14px 13px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.detailsview{
+
+  list-style: none;
+  margin: 0 60px;
+  padding: 20px 25px;
+  margin-top: 80px;
+  width: 500px;
+  height: 100%;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.pokeImg {
+  justify-content: center;
+  display: flex;
+}
+.details img {
+  width: 60%;
+}
+
+.butns {
+  margin-top: 20px;
+  text-align: center;
+}
+.butns button {
+  margin: 25px 15px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(7, 64, 118);
+  background-color: aliceblue;
+}
+/* details view */
+.button-container {
+  margin: 20px 25px;
+  display: flex;
+  background-color: rgb(155, 196, 241);
+  width: 350px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button p {
+  text-decoration: none;
+  border: 2px solid pink;
+  font-size: 15px;
+  background-color: #aea2a2;
+  color: rgb(250, 248, 248);
+  border-radius: 12px;
+  padding: 4px 7px;
+  margin-right: 10px;
+}
+.abilities{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.abilities .group{
+  background-color: #b74555;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+.word{
+  display: inline-flex;
+  grid-template-columns: repeat(auto-fit,minmax(500px, 0.9fr));
+  grid-gap:2rem;
+
+}
+.progress {
+  background-color: rgba(0, 0, 0, 0.225);
+  height: 5px;
+  width: 50%;
+  border-radius: 40px;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 70%;
+  height: 5px;
+  background-color: rgb(26, 150, 150);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 40px;
+}

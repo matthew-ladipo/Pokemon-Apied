@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.container img{
+    margin: 10px;
+    width: 12%;
+}
+.pre{
+    margin-bottom: 20px;
+    display: grid;
+    /* justify-content: center;
+    align-items: center;
+    position: relative; */
+}
+.repeat{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px, 0.5fr));
+  grid-gap:2rem;
+  margin:  0 92px;
+}
+.butn{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 20px;
+   
+}
+.btn{
+    left: 80px;
+    position: fixed;
+    margin: 7px 50px;
+    padding: 5px 14px;
+    border-radius: 6px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    border: 2px solid  rgb(5, 55, 103);
+    background-color: rgb(196, 218, 238);
+}
+.btn1{
+    right: 80px;
+    position: fixed;
+    margin: 7px 54px;
+    padding: 5px 14px;
+    border-radius: 6px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    border: 2px solid  rgb(4, 51, 95);
+    background-color: rgb(196, 218, 238);
+}
+
+/* for card */
+.allCards {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(
+      rgba(6, 134, 143, 0.8),
+      rgba(226, 203, 214, 0.8)
+    );
+    margin:0 auto; 
+    padding: 20px 0;
+  }
+  .allCards img{
+      width: 12rem;
+  }
+  .allCards button{
+    margin: 7px 54px;
+    padding: 5px 3px;
+    border-radius: 6px;
+    animation: up 2s infinite;
+    position: relative;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid  rgb(196, 218, 238);
+    background-color: rgb(196, 218, 238);
+    
+  }
+  
+  /*  display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    animation: up 2s infinite; */
