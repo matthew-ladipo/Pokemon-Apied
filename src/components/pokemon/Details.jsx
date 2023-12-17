@@ -32,9 +32,9 @@ const Details = ({ data, infoPokemon }) => {
                 </button>
               </div>
             </section>
-          </div>
-          <div className="detailsview">
+            <div className="detailsview">
           <Outlet />
+          </div>
           </div>
         </div>
       )}

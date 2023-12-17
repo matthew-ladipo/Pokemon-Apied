@@ -22,10 +22,20 @@
   margin:  0 92px;
 }
 .butn{
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 60px 35px;
+    /* position: fixed; */
    
+}
+.butn button{
+  background-color: black;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 8px;
+}
+.prev{
+  left: 85%;
 }
 .btn{
     left: 80px;
@@ -82,8 +92,35 @@
     
   }
   
-  /*  display: block;
-    color: #fff;
-    font-size: 2rem;
-    padding: 2rem;
-    animation: up 2s infinite; */
+  @media screen and (max-width: 1217px) {
+    .repeat{
+      grid-template-columns: repeat(auto-fit,minmax(450px, 0.5fr));
+    }
+  } 
+ @media screen and (max-width: 1115px) {
+    .repeat{
+      grid-template-columns: repeat(auto-fit,minmax(400px, 0.5fr));
+    }
+  } 
+    
+  @media screen and (max-width: 1016px) {
+    .repeat{
+      grid-template-columns: repeat(auto-fit,minmax(350px, 0.5fr));
+    }
+  } 
+  @media screen and (max-width: 915px) {
+    .repeat{
+      grid-template-columns: repeat(auto-fit,minmax(300px, 0.5fr));
+    }
+  } 
+  @media screen and (max-width: 815px) {
+    .repeat{
+      grid-template-columns: none;
+    }
+  } 
+
+  @media screen and (max-width: 460px){
+      .pre{
+        margin:0 -20px;
+      }
+  }
